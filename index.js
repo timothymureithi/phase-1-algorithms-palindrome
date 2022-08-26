@@ -1,10 +1,23 @@
 function isPalindrome(word) {
   // Write your algorithm here
+
+
+  const arrletters = word.split("")
+  const arrReverse = arrletters.reverse()
+  const stringReverse = arrletters.join("")
+
+  if(word === stringReverse){
+    return true
+  }else {
+    return false
+  }
+
 }
+
 
 /* 
   Add your pseudocode here
-*/
+*/ 
 
 /*
   Add written explanation of your solution here
